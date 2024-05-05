@@ -7,71 +7,83 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo left">
-                Header Logo
+    <header class="white-font">
+        <nav class="flex-row">
+            <div class="logo">
+                <a href="">Header Logo</a>
             </div>
     
-            <div class="links right">
-                <ul>
-                    <li>Header link one</li>
-                    <li>Header link two</li>
-                    <li>Header link three</li>
+            <div class="links flex">
+                <ul class="flex-row">
+                    <li><a href="#">Header link one</a></li>
+                    <li><a href="#">Header link two</a></li>
+                    <li><a href="#">Header link three</a></li>
                 </ul>
             </div>
         </nav>
         
-        <div class="main">
-            <h2>This website is awesome</h2>
-            <p>This website has some subtext that goes here under
-                the main title. Its a smaller font and the colour is low contrast
-            </p>
-            <button>Sign up</button>
-        </div>
+        <main class="flex-container">
+            <div class="container flex-row">
+                <div class="flex-col">
+                    <h2>This website is awesome</h2>
+                    <p class="gray-font">This website has some subtext that goes here under
+                    the main title. Its a smaller font and the colour is low contrast.
+                    </p>
+                    <a href="#" class="white-font button"><span>Sign up</span></a>
+                </div>
+                <img src="" alt="Placeholder image">
+            </div>
+        </main>
     </header>
 
-    <div class="info-section">
+    <div class="info-section flex-container">
         <div class="title">Some random information.</div>
+        <div class="info-container flex-row">
+            <div class="info">
+                <img src="" alt="">
+                <div class="text">This is some subtext under an illustration or image</div>
+            </div>
+            <div class="info">
+                <img src="" alt="">
+                <div class="text">This is some subtext under an illustration or image</div>
+            </div>
+            <div class="info">
+                <img src="" alt="">
+                <div class="text">This is some subtext under an illustration or image</div>
+            </div>
+            <div class="info">
+                <img src="" alt="">
+                <div class="text">This is some subtext under an illustration or image</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="quote-section flex-container">
+        <div class="flex-col flex-end">
+            <div class="quote"><i>This is an inspiring quote or a testimonial from a customer.
+                Maybe its just filling up space, or maybe people will actually read it. Who knows?
+                all I know is that it looks nice.</i>
+            </div>
+            <div class="quote-author">
+                - Thor, God of Thunder
+            </div>
+        </div>
         
-        <div class="information">
-            <img src="" alt="">
-            <div class="text">This is some subtext under an illustration or image</div>
-        </div>
-        <div class="information">
-            <img src="" alt="">
-            <div class="text">This is some subtext under an illustration or image</div>
-        </div>
-        <div class="information">
-            <img src="" alt="">
-            <div class="text">This is some subtext under an illustration or image</div>
-        </div>
-        <div class="information">
-            <img src="" alt="">
-            <div class="text">This is some subtext under an illustration or image</div>
-        </div>
     </div>
 
-    <div class="quote-section">
-        <div class="quote">This is an inspiring quote or a testimonial from a customer.
-            Maybe its juts filling up space, or maybe people will actually read it. Who knows?
-            all I know is that it looks nice.
+    <div class="cta-section flex-container">
+        <div class="cta-box flex-row">
+            <div class="flex-col">
+                <div class="cta-title white-font">Call to action! It's time!</div>
+                <div class="cta-info gray-font">Sign up for our product by clicking that button right over there!</div>
+            </div>
+            <a href="#" class="white-font button"><span>Sign up</span></a>
         </div>
-        <div class="quote-author">
-            - Thor, God of Thunder
-        </div>
-    </div>
-
-    <div class="cta-section">
-        <div class="action-box">
-            <div class="action-title">Call to action! It's time!</div>
-            <div class="action-info">Sign up for our product by clicking that button right over there!</div>
-            <button>Sign up</button>
-        </div>
+        
     </div>
     
     <footer>
-        <div class="copyright">Copyright @ The Odin Project 2021</div>
+        <div class="white-font copyright">Copyright @ The Odin Project 2021</div>
     </footer>
 </body>
 </html>
