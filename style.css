@@ -233,15 +233,14 @@ main img {
 }
 
 footer {
-    background-color: #223fb1;
+    background-color: #1548b5;
     padding: 1rem;
 }
 
 .copyright {
     text-decoration: none;
     font-weight: 600;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .flex-col .button:hover {
@@ -266,6 +265,3 @@ footer {
     width: 90%;
     right: 0; 
 }
-
-
-
